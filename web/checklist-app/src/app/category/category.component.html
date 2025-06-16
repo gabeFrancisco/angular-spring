@@ -1,2 +1,9 @@
 <p>category works!</p>
-<p>Message: {{ stringInterpolation }}</p>
+
+<p>{{variable}}</p>
+
+<button (click)="someFunction('hello world!')">Click me!</button>
+<button [disabled]="isDisabled">Other button!</button>
+<input type="text" [(ngModel)]="myBindingProperty">
+<label for="input">Input</label>
+<p>Prop: {{ myBindingProperty}}</p>

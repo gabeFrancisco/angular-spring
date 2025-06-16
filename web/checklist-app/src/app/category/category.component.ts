@@ -2,16 +2,21 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-category',
-  imports: [],
+  standalone: false,
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })
 export class CategoryComponent implements OnInit{
-  public stringInterpolation = "Some test string!";
-  constructor() {
-
-  }
+  public variable = "Some good value!"
+  public isDisabled = false;
+  public myBindingProperty: string = "Some value"
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    console.log("component init...")
+  }
+
+  public someFunction(input: string){
+    console.log(input)
+    if(this.isDisabled) this.isDisabled = false
+    else this.isDisabled = true;
   }
 }
