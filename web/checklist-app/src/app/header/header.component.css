@@ -16,9 +16,21 @@ header{
 
 .menu li{
   margin-right: 1rem;
+  font-size: 14px;
 }
 
 #logo{
-  color: #79e8f9;
   font-weight: 600;
+}
+
+#sandwich{
+  width: 1.7rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+#sandwich:hover{
+  cursor: pointer;
+  transition: ease-in-out 200ms 200ms;
+  scale: 1.2;
 }
