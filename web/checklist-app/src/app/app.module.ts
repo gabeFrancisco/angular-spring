@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { CategoryComponent } from './category/category.component';
 import { FormsModule } from '@angular/forms';
 import { TestComponent } from './test/test.component';
+import { HeaderComponent } from './header/header.component';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoryComponent,
-    TestComponent
+    TestComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
