@@ -1,8 +1,10 @@
-<app-header (sidebarToogle)="toggleSidebar()" />
 <main>
-  <app-sidebar id="sidebar" [class.hidden]="!openedSidebar" />
-  <div class="content">
-    <router-outlet></router-outlet>
-  </div>
+  <app-header (sidebarToogle)="toggleSidebar()" />
+  <section>
+    <app-sidebar id="sidebar" [class.hidden]="!openedSidebar" />
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+  <app-footer />
 </main>
-<app-footer />

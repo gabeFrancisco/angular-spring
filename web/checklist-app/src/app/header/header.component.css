@@ -1,10 +1,10 @@
 header{
   display: flex;
   flex-direction: row;
-  background-color: #2671bd;
+  background: linear-gradient(to right, var(--primary), var(--light-primary));
   color: white;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 1rem;
 }
 
 .menu{

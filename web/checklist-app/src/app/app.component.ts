@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  private title = 'checklist-app';
-  openedSidebar = false;
+  title = 'checklist-app';
+  openedSidebar = true;
   toggleSidebar(){
     this.openedSidebar = !this.openedSidebar;
   }
