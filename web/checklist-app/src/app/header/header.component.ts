@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { menuItems } from '../../resources/menuItems';
 
 @Component({
   selector: 'app-header',
@@ -8,6 +9,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit{
   @Output() sidebarToogle = new EventEmitter<void>();
+  items = menuItems;
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');

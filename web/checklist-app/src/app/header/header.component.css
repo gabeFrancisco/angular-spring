@@ -4,7 +4,7 @@ header{
   background-color: #2671bd;
   color: white;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 .menu{
@@ -14,8 +14,8 @@ header{
 }
 
 .menu li{
+  font-size: 15px;
   margin-right: 1rem;
-  font-size: 14px;
 }
 
 .menu li a{
@@ -32,13 +32,13 @@ header{
 }
 
 #sandwich{
-  width: 1.7rem;
+  width: 1.4rem;
   height: auto;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 #sandwich:hover{
   cursor: pointer;
-  transition: ease-in-out 200ms 200ms;
+  transition: ease-in-out 200ms;
   scale: 1.2;
 }

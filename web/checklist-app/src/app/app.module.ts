@@ -10,6 +10,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ChecklistsComponent } from './checklists/checklists.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ChecklistsComponent } from './checklists/checklists.component';
     HomeComponent,
     NotfoundComponent,
     ChecklistsComponent,
+    CategoriesComponent,
   ],
   imports: [
     BrowserModule,
