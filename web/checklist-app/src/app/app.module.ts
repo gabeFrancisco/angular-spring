@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ChecklistsComponent } from './checklists/checklists.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
     SidebarComponent,
     HomeComponent,
     NotfoundComponent,
+    ChecklistsComponent,
   ],
   imports: [
     BrowserModule,

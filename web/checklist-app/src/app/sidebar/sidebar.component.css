@@ -1,11 +1,15 @@
 aside{
-  border-right: #ccc 1px solid;
-  padding: 0 1rem 0 0.4rem;
-  margin-right: 1rem;
+  border-right: #ddd 1px solid;
+  padding: 0 1rem 0 0;
+  margin-right: 0 1rem 0 0;
   height: 100%;
   width: 10rem;
+  background-color: #f4f4f4;
+  color: #444;
 }
 
 aside ul{
+  margin: 0;
+  padding-top: 1rem;
   list-style: none;
 }
