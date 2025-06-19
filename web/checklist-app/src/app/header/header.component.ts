@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent implements OnInit{
+  @Output() sidebarToogle = new EventEmitter<void>();
+
   ngOnInit(): void {
     throw new Error('Method not implemented.');
+  }
+
+  toggleSidebar(){
+    this.sidebarToogle.emit()
   }
 
 }
