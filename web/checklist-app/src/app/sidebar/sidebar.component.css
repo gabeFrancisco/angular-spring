@@ -25,3 +25,7 @@ aside ul li a {
   color: #222;
   text-decoration: none;
 }
+
+aside ul li a:hover{
+  color: #fff;
+}

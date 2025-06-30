@@ -4,7 +4,7 @@ header{
   background: linear-gradient(to right, var(--primary), var(--light-primary));
   color: white;
   align-items: center;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
 }
 
 .menu{
